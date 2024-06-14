@@ -7,6 +7,7 @@ def home(request):
 
 
 
+
 def addemployee(request):
     try:
         Name = request.POST['name']
