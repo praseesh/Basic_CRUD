@@ -5,7 +5,6 @@ def home(request):
     return render(request, "index.html")
 
 
-
 def addemployee(request):
     try:
         Name = request.POST['name']
